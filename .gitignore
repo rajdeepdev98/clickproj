@@ -1,0 +1,10 @@
+# Python package artifacts
+*.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+dist/
+build/
+*.so
+.Python
+.idea

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clickproj-rjd"
+version = "0.1.0"
+description = "A CLI application with interactive shell using Click"
+readme = "README.md"
+authors = [
+    {name = "Rajdeep Deb", email = "rajdeep.dev98@gmail.com"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+]
+keywords = ["cli", "click", "interactive", "shell"]
+requires-python = ">=3.7"
+dependencies = [
+    "click>=8.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/mycli"
+"Bug Tracker" = "https://github.com/yourusername/mycli/issues"
+"Documentation" = "https://github.com/yourusername/mycli#readme"
+
+[project.scripts]
+mycli = "commands.cli.cli:cli"
