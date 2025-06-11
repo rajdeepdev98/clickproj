@@ -28,9 +28,9 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/yourusername/mycli"
-"Bug Tracker" = "https://github.com/yourusername/mycli/issues"
-"Documentation" = "https://github.com/yourusername/mycli#readme"
+"Homepage" = "https://github.com/rajdeepdev98/clickproj"
+"Bug Tracker" = "https://github.com/rajdeepdev98/clickproj/issues"
+"Documentation" = "https://github.com/rajdeepdev98/clickproj#readme"
 
 [project.scripts]
 mycli = "commands.cli.cli:cli"
